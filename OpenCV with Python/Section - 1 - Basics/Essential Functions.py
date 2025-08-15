@@ -3,7 +3,7 @@ import numpy as np
 
 
 # Load an image
-img = cv.imread('D:\Computer Vision Library Tutorials and Projects Collection\Computer-Vision\OpenCV with Python\Resources\Photos\cats.jpg')
+img = cv.imread('image.jpg')
 # cv.imshow('Cats', img)
 
 # # Convert to grayscale

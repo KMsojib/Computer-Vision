@@ -5,14 +5,14 @@ import matplotlib.pyplot as plt
 # Reading Images
 
 
-img = cv.imread('D:\Computer Vision\OpenCV Course - Full Tutorial with Python\Resources\Photos\wl1.jpg')
+img = cv.imread('image.jpg')
 # Show the image
 cv.imshow('wl1', img)
 cv.waitKey(0)  # Wait for a key press to close the window
 cv.destroyAllWindows()  # Close all OpenCV windows
 
 # Reading Videos
-capture = cv.VideoCapture('D:\Computer Vision\OpenCV Course - Full Tutorial with Python\Resources\Videos\cat.mp4')
+capture = cv.VideoCapture('image.jpg')
 
 
 # Reading Videos

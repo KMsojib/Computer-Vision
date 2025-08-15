@@ -13,7 +13,7 @@ def rescaleFrame(frame, scale=0.75):
 
 
 # Load the image
-img = cv.imread('D:\Computer Vision Library Tutorials and Projects Collection\Computer-Vision\OpenCV with Python\Resources\Photos\Bacterial leaf blight\DSC_10.jpg')
+img = cv.imread('image.jpg')
 
 resize_image = rescaleFrame(img,scale=0.2)
 cv.imshow("Resize",resize_image)

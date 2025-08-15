@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 ## Read image
-img = cv.imread('D:\Computer Vision Library Tutorials and Projects Collection\Computer-Vision\OpenCV with Python\Resources\Photos\cats.jpg')
+img = cv.imread('image.jpg')
 cv.imshow('Cat', img)
 
 ## Function for Image Translation

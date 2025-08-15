@@ -20,7 +20,7 @@ def rescaleLiveVideo(weidth,heght):
     cpature.set(4, heght)  # set height
 
 # Load videos
-cpature = cv.VideoCapture('D:\Computer Vision\OpenCV Course - Full Tutorial with Python\Resources\Videos\cat.mp4')
+cpature = cv.VideoCapture('image.jpg')
 
 while True:
     isTrue, frame = cpature.read()  # read frame by frame
@@ -41,7 +41,7 @@ plt.close()  # close matplotlib windows if any
 
 # Load Image
 
-img = cv.imread('D:\Computer Vision\OpenCV Course - Full Tutorial with Python\Resources\Photos\cats 2.jpg')
+img = cv.imread('image.jpg')
 # Rescale the image
 image_resized = rescaleFrame(img, scale = 0.2)
 # Display the original and resized image
